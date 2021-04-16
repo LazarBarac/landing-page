@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: alata;
+}
+.sve{
+    width: 100%;
+    display: initial;
+}
+.kontejner1{
+    width: 100%;
+    background-image: url("images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.kontejner1-1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.linkoviHeader.lista{
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    font-size: small;
+}
+.linkoviHeader.slika{
+    display: none;
+}
+.linkoviHeader p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.kontejner1-2{
+    border: 2px solid white;
+    width:50%;
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.naslov{
+    font-size: 70px;
+    padding-left: 30px;
+}
+
+.kontejner2-1-1{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.vRslika{
+    width: 100%;
+}
+.kontejner2-1-2{
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    margin-left: 47%;
+    margin-top: -20%;
+    height: 280px;
+    color: grey;
+}
+.naslovTeksta{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 40px;
+    font-weight: 200;
+}
+.tekst{
+    padding-left: 10%;
+    padding-top: 3%;
+    font-size: small;
+    text-align: justify;
+}
+.kontejner2-2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.nasiProizvodi{
+    font-weight: 100;
+    font-size: 25px;
+}
+.vidiSve{
+    width:100px;
+}
+.vidiSve:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: black;
+}
+.kontejner2-3{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.kontejner2-3-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.kontejner2-3-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+.slikaU{
+    width:22%;
+    height: 450px;
+}
+.slikaU:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.slikaU p{
+    font-size: larger;
+    margin-top: 350px;
+    padding-left: 15px;
+    width:55%;
+    color:whitesmoke;
+}
+.slikaU.prva{
+    background-image: url("images/desktop/image-deep-earth.jpg");
+    background-size: cover;  
+}
+.slikaU.druga{
+    background-image: url("images/desktop/image-night-arcade.jpg");
+    background-size: cover;
+}
+.slikaU.treca{
+    background-image: url("images/desktop/image-soccer-team.jpg");
+    background-size: cover;
+}
+.slikaU.cetvrta{
+    background-image: url("images/desktop/image-grid.jpg");
+    background-size: cover;
+}
+.slikaU.peta{
+    background-image: url("images/desktop/image-from-above.jpg");
+    background-size: cover;
+}
+.slikaU.sesta{
+    background-image: url("images/desktop/image-pocket-borealis.jpg");
+    background-size: cover;
+}
+.slikaU.sedma{
+    background-image: url("images/desktop/image-curiosity.jpg");
+    background-size: cover;
+}
+.slikaU.osma{
+    background-image: url("images/desktop/image-fisheye.jpg");
+    background-size: cover;
+}
+.kontejner3{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.kontejner3-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 25%;
+}
+.kontejner3-1 img{
+    padding-bottom: 5%;
+    width: 100px;
+}
+.linkoviFooter{
+    display: flex;
+    font-size: x-small;
+    width: 100%;
+    justify-content: space-between;
+}
+.linkoviFooter p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.kontejner3-2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-items: flex-end;
+}
+.ikonice{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    padding-bottom: 5%;
+}
+.ikonice a img{
+    width: 20px;
+    padding-bottom: 3px;
+}
+.ikonice a img:hover{
+    cursor: pointer;
+    border-bottom: 1px white solid;
+}
+.rights{
+    font-size: x-small;
+}
+
+.meniZaMobilni{
+    display: none;
+}
+
+@media(max-width:600px){
+   
+    .kontejner1{
+        width: 100%;
+        height:  250px;
+        background-size: cover;
+    }
+    .kontejner1-1{
+        width:90%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        align-items: center;
+    }
+    .kontejner1-1 img{
+        width: 20%;
+    }
+    .linkoviHeader.lista{
+        display: none;
+    }
+    .linkoviHeader.slika{
+        display: block;
+        width: 75px;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    .kontejner1-2{
+        width: 90%;
+        margin: auto;
+    }
+    .naslov{
+        font-size: xx-large;
+    }
+    .kontejner2{
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    .kontejner2-1-1{
+        width: 90%;
+        margin: auto;
+    }
+    .kontejner2-1-2{
+        position: unset;
+        width: 90%;
+        margin: 0;
+        margin: auto;
+        height: auto;
+    }
+    .kontejner2-2{
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .kontejner2-3{
+        width:90%;
+        margin: auto;
+    }
+    .kontejner2-3-1{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .kontejner2-3-2{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .slikaU{
+        width: 100%;
+        height:100px;
+        margin-bottom: 2%;
+        background-size:cover;
+    }
+    .slikaU.prva{
+        background-position: 0% 0%;
+    }
+    .slikaU.druga{
+        background-position: 0% 20%;
+    }
+    .slikaU.treca{
+        background-position: 0% 10%;
+    }
+    .slikaU.cetvrta{
+        background-position: 0% 50%;
+    }
+    .slikaU.peta{
+        background-position: 0% 0%;
+    }
+    .slikaU.sesta{
+        background-position: 0% 50%;
+    }
+    .slikaU.sedma{
+        background-position: 0% 0%;
+    }
+    .slikaU.osma{
+        background-position: 0% 50%;
+    }
+    .slikaU p{
+        margin: 0;
+        padding: 0;
+        padding-left: 7px;
+    }
+    .naslovTeksta{
+        font-size: x-large;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .tekst{
+        padding: 0;
+        margin: 0;
+    }
+    .nasiProizvodi{
+        font-size: medium;
+    }
+    .kontejner3{
+        width: 100%;
+        flex-direction: column;
+    }
+    .kontejner3-1{
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .kontejner3-1 img{
+        padding-bottom: 2%;
+    }
+    .kontejner3-2{
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .linkoviFooter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .linkoviFooter p{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .ikonice{
+        width: 40%;
+        padding-bottom: 2%;
+    }
+    .rights{
+        width: 90%;
+        margin: auto;
+    }
+    .meniZaMobilni{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .prviDeo{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10%;
+        padding-bottom: 20%;
+        align-items: center;
+    }
+    .sve{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .logoFooter{
+        width: 50%;
+    }
+    .zatvori{
+        width:5%;
+    }
+    .drugiDeo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        color: whitesmoke;
+        font-weight: 200;
+        padding-bottom: 20%;
+    }
+    .drugiDeo p{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
